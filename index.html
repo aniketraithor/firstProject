@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM - Your Fitness Journey Starts Here</title>
+    <link rel="stylesheet" href="gym.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6.5 6.5h11v11h-11z"/>
+                    <path d="M6.5 6.5L4 4M17.5 6.5L20 4M6.5 17.5L4 20M17.5 17.5L20 20"/>
+                    <path d="M12 4v3M12 17v3M4 12h3M17 12h3"/>
+                </svg>
+                <span class="logo-text">AGYM</span>
+            </div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+                <button class="btn btn-primary">Join Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <span class="badge badge-secondary">Transform Your Body & Mind</span>
+            <h1 class="hero-title">
+                YOUR FITNESS<br>
+                <span class="hero-highlight">JOURNEY STARTS HERE</span>
+            </h1>
+            <p class="hero-subtitle">
+                Join the ultimate fitness experience with world-class trainers, state-of-the-art equipment, and a community that pushes you forward.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg">Start Free Trial</button>
+                <button class="btn btn-outline btn-lg">View Classes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section section-muted">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Our Services</span>
+                <h2 class="section-title">Train Your Way</h2>
+                <p class="section-subtitle">
+                    From strength training to yoga, we offer diverse programs tailored to your fitness goals.
+                </p>
+            </div>
+
+            <div class="grid grid-4">
+                <div class="card">
+                    <div class="card-header">
+                        <svg class="icon icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6.5 6.5h11v11h-11z"/>
+                            <path d="M6.5 6.5L4 4M17.5 6.5L20 4M6.5 17.5L4 20M17.5 17.5L20 20"/>
+                        </svg>
+                        <h3 class="card-title">Strength Training</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Build muscle and increase power with our advanced strength programs and equipment.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <svg class="icon icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                        <h3 class="card-title">Group Classes</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Join energetic group sessions including HIIT, Zumba, Spin, and more.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <svg class="icon icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        <h3 class="card-title">24/7 Access</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Work out on your schedule with round-the-clock gym access for all members.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <svg class="icon icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+                        </svg>
+                        <h3 class="card-title">Personal Training</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Get one-on-one guidance from certified trainers to achieve your goals faster.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Membership Plans</span>
+                <h2 class="section-title">Choose Your Plan</h2>
+                <p class="section-subtitle">
+                    Flexible membership options designed to fit your lifestyle and budget.
+                </p>
+            </div>
+
+            <div class="grid grid-3 pricing-grid">
+                <!-- Basic Plan -->
+                <div class="card pricing-card">
+                    <div class="card-header text-center">
+                        <h3 class="pricing-name">Basic</h3>
+                        <p class="pricing-desc">Perfect for getting started</p>
+                        <div class="pricing-price">
+                            <span class="price-amount">$29</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="feature-list">
+                            <li><span class="check">✓</span> Gym floor access</li>
+                            <li><span class="check">✓</span> Cardio equipment</li>
+                            <li><span class="check">✓</span> Locker room access</li>
+                            <li><span class="check">✓</span> Mobile app</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline btn-full">Get Started</button>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="card pricing-card pricing-popular">
+                    <span class="popular-badge">Most Popular</span>
+                    <div class="card-header text-center">
+                        <h3 class="pricing-name">Premium</h3>
+                        <p class="pricing-desc">Most popular choice</p>
+                        <div class="pricing-price">
+                            <span class="price-amount">$59</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="feature-list">
+                            <li><span class="check">✓</span> Everything in Basic</li>
+                            <li><span class="check">✓</span> Group classes unlimited</li>
+                            <li><span class="check">✓</span> Personal training (2/month)</li>
+                            <li><span class="check">✓</span> Nutrition consultation</li>
+                            <li><span class="check">✓</span> Guest passes (5/month)</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-full">Get Started</button>
+                    </div>
+                </div>
+
+                <!-- Elite Plan -->
+                <div class="card pricing-card">
+                    <div class="card-header text-center">
+                        <h3 class="pricing-name">Elite</h3>
+                        <p class="pricing-desc">Ultimate fitness experience</p>
+                        <div class="pricing-price">
+                            <span class="price-amount">$99</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="feature-list">
+                            <li><span class="check">✓</span> Everything in Premium</li>
+                            <li><span class="check">✓</span> Personal training unlimited</li>
+                            <li><span class="check">✓</span> Recovery & spa access</li>
+                            <li><span class="check">✓</span> Priority booking</li>
+                            <li><span class="check">✓</span> Meal planning</li>
+                            <li><span class="check">✓</span> Free merchandise</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline btn-full">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section section-muted">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Success Stories</span>
+                <h2 class="section-title">Member Transformations</h2>
+                <p class="section-subtitle">
+                    Real people, real results. See how AGYM has transformed lives.
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="testimonial-header">
+                            <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80');"></div>
+                            <div>
+                                <h4 class="testimonial-name">Sarah Johnson</h4>
+                                <p class="testimonial-role">Lost 30lbs in 4 months</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p class="testimonial-quote">"AGYM changed my life! The trainers are amazing and the community is so supportive. I've never felt stronger or more confident."</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="testimonial-header">
+                            <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80');"></div>
+                            <div>
+                                <h4 class="testimonial-name">Mike Chen</h4>
+                                <p class="testimonial-role">Gained 15lbs of muscle</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p class="testimonial-quote">"The personal training program here is unmatched. I've achieved goals I never thought possible. Best investment I've made."</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="testimonial-header">
+                            <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80');"></div>
+                            <div>
+                                <h4 class="testimonial-name">Emily Rodriguez</h4>
+                                <p class="testimonial-role">Marathon finisher</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p class="testimonial-quote">"From couch to marathon! The coaches at AGYM helped me build the endurance and mental strength to complete my first marathon."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div>
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6.5 6.5h11v11h-11z"/>
+                            <path d="M6.5 6.5L4 4M17.5 6.5L20 4M6.5 17.5L4 20M17.5 17.5L20 20"/>
+                        </svg>
+                        <span class="logo-text">AGYM</span>
+                    </div>
+                    <p class="footer-text">Transform your body and mind with the best fitness experience in town.</p>
+                </div>
+
+                <!-- Location -->
+                <div>
+                    <h3 class="footer-heading">Location</h3>
+                    <div class="footer-info">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>123 Fitness Street<br>Los Angeles, CA 90001</span>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="footer-heading">Contact</h3>
+                    <div class="footer-info">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <span>(555) 123-4567</span>
+                    </div>
+                    <div class="footer-info">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect width="20" height="16" x="2" y="4" rx="2"/>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                        <span>info@agym.com</span>
+                    </div>
+                </div>
+
+                <!-- Hours -->
+                <div>
+                    <h3 class="footer-heading">Hours</h3>
+                    <p class="footer-text">Monday - Friday: 5am - 11pm</p>
+                    <p class="footer-text">Saturday - Sunday: 7am - 9pm</p>
+                    <p class="footer-highlight">24/7 Access for Premium & Elite</p>
+                </div>
+            </div>
+
+            <!-- Social & Copyright -->
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 AGYM. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+                    <a href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="gym.js"></script>
+</body>
+</html>
